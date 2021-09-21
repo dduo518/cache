@@ -7,7 +7,7 @@ import (
 
 func main() {
 	var temp = &Temp{
-		fileName: "./temp/test.hash",
+		fileName: "./temp/test.txt",
 	}
 	temp.CreateFile()
 	defer temp.Close()
